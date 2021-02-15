@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Shop</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+			<div class="container">
+				<h1>Shop</h1>
+				<nav>
+					<ul>
+            <li><a href="main.html">Welcome</a></li>
+            <li><a href="fujifilm.html">FujiFilm Gallery</a></li>
+            <li><a href="kodak.html">Kodak Gallery</a></li>
+            <li><a href="shop.html">Shop</a></li>
+            <li><a href="login.html">Logout</a></li>
+
+            <li>
+              
+              <div class="dropdown">
+               <i class="fa fa-shopping-cart"></i>
+              <div class="dropdown-content">
+                <div id="cart">
+                    <h2>Cart</h2>
+                    <table>
+                      <colgroup>
+                        <col class="c1">
+                        <col class="c2" span="2">
+                      </colgroup>
+
+                      <tr>
+                        <th>Item</th>
+                        <th>Price</th>
+                      </tr>
+
+                      <tr>
+                        <td>Total</td>
+                        <td colspan="2"><input type="text" name="total" id="total"></td>
+                      </tr>
+
+                    </table>
+
+                    Total Purchase: <span id="totalPurchase"></span>
+                    <br><br><input type="button" value="Purchase">
+                  </div>
+                </div>
+              </div>
+
+            </li>
+
+					</ul>
+				</nav>
+			</div>
+
+		</header>
+
+
+
+
+      <div class="grid-container">
+        <div class="grid">
+          <a href="#">
+            <img src="./img/pro400h.jpg">
+          </a>
+          <div class="shop">
+            <figcaption>Pro 400H</figcaption>
+            <p>Price: <span>50.00</span> $</p>
+    					<input type="button" value="Add To Cart" class="add">
+          </div>
+        </div>
+
+        <div class="grid">
+        <a href="#">
+          <img src="./img/c200.jpg">
+        </a>
+        <div class="shop">
+          <figcaption>Fuji C200</figcaption>
+          <p>Price: <span>20.00</span> $</p>
+            <input type="button" value="Add To Cart" class="add">
+        </div>
+      </div>
+
+      <div class="grid">
+        <a href="#">
+          <img src="./img/c100.jpeg">
+        </a>
+        <div class="shop">
+          <figcaption>Fuji C100</figcaption>
+          <p>Price: <span>25.00</span> $</p>
+            <input type="button" value="Add To Cart" class="add">
+        </div>
+      </div>
+
+      <div class="grid">
+      <a href="#">
+        <img src="./img/colorplus200.jpg">
+      </a>
+      <div class="shop">
+        <figcaption>Kodak Color Plus 200</figcaption>
+        <p>Price: <span>20.00</span> $</p>
+          <input type="button" value="Add To Cart" class="add">
+      </div>
+    </div>
+
+    <div class="grid">
+      <a href="#">
+        <img src="./img/ultramax400.jpg">
+      </a>
+      <div class="shop">
+        <figcaption>Kodak Ultramax 400 (Pack of 3)</figcaption>
+        <p>Price: <span>50.00</span> $</p>
+          <input type="button" value="Add To Cart" class="add">
+      </div>
+    </div>
+
+    <div class="grid">
+      <a href="#">
+        <img src="./img/gold200.jpg">
+      </a>
+      <div class="shop">
+        <figcaption>Kodak Gold 200</figcaption>
+        <p>Price: <span>15.00</span> $</p>
+          <input type="button" value="Add To Cart" class="add">
+      </div>
+    </div>
+
+    </div>
+
+    <footer>
+      <div class="container">
+        <nav>
+          <p>
+            <a href="https://twitter.com/" target="blank"><i class="fa fa-twitter-square"></i></a>
+            <a href="https://www.facebook.com/" target="blank"><i class="fa fa-facebook-square"></i></a>
+            <a href="https://www.skype.com/en/" target="blank"><i class="fa fa-skype"></i></a>
+            <a href="https://www.instagram.com/" target="blank"><i class="fa fa-instagram"></i></a>
+          </p>
+          <p>Copyright &copy;</p>
+        </nav>
+      </div>
+    </footer>
+
+</body>
+<script src="./js/shop.js"></script>
+</html>
